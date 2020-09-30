@@ -7,19 +7,25 @@
 }
 
 .bg-1 {
-    background-color: #EBEBE8;
-    color: #31352E
+    background-color: #D4F1F4;
 }
 
 .bg-2 {
-    background-color: #D1E2C4;
-    color: #31352E
+    background-color: #75E6DA;
 }
 
-header,
-footer {
-    background-color: #778A35;
+header {
+    background-color: #05445E;
     /* background-color: black; */
+    color: white;
+}
+
+header h1  {
+    font-family: 'Satisfy', cursive;
+}
+footer {
+    /* background-color: #05445E; */
+    background-color: black;
     color: white;
 }
 
@@ -46,7 +52,8 @@ h6 {
     color: white;
     cursor: pointer;
     border: none;
-    background-color: #555;
+    /* background-color: #555; */
+    background-color: #189AB4;
     border-radius: 50%;
     padding: 8px;
 }
